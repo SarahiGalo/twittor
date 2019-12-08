@@ -18,9 +18,12 @@
 </head>
 <body>
         <!-- Titulo -->
-        <span class="first"> 
+        <span class="first">
             <span id="salir-btn" class="fa fa-sign-out-alt out oculto animated fadeIn"></span>
-            <span id="titulo">Seleccione Personaje</span>
+            <span id="titulo">
+              <i class="fa fa-user"></i>
+              Seleccione Personaje
+            </span>
             <span id="nuevo-btn" class="fa fa-pen-square new oculto animated fadeIn fast"></span>
         </span>
         <!-- Fin Titulo -->
@@ -29,17 +32,17 @@
         <div id="modal" class="oculto">
             <img id="modal-avatar" src="img/avatars/spiderman.jpg">
 
-            <span class="first"> 
+            <span class="first">
                 <span id="titulo-modal">Nuevo mensaje</span>
                 <span id="cancel-btn" class="fa fa-times"></span>
             </span>
-            
+
 
             <div class="nuevo-mensaje">
                 <textarea id="txtMensaje" placeholder="Nuevo mensaje..." rows="5"></textarea>
             </div>
 
-            
+
             <!-- boton de enviar -->
 
             <div id="post-btn" class="fab">
@@ -60,7 +63,7 @@
 
         <!-- Seleccion de personaje -->
         <div id="seleccion" class="seleccion animated fadeIn fast" align="center">
-        
+
             <div>
                 <img data-user="spiderman" src="img/avatars/spiderman.jpg" alt="spiderman" class="seleccion-avatar">
             </div>
@@ -87,7 +90,7 @@
 
         <!-- Lista de mensajes -->
         <ul id="timeline" class="timeline oculto">
-            
+
             <!-- Mensaje -->
             <li class="animated fadeIn fast">
                 <div class="avatar">
@@ -99,7 +102,7 @@
                         <br/>
                         La tía May, hizo unos panqueques en forma de ironman!
                     </div>
-                    
+
                     <div class="arrow"></div>
                 </div>
             </li>
@@ -109,10 +112,10 @@
         <!-- Fin Lista de mensajes -->
 
 
-      
-    
+
+
         <script src="js/libs/jquery.js"></script>
         <script src="js/app.js"></script>
-    
+
 </body>
 </html>
